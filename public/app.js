@@ -18,12 +18,12 @@ const firebaseConfig = {
       let update = snapshot.docChanges();
       console.log(update);
       update.forEach( image => {
-        console.log(image);
-        console.log(image.doc);
-        console.log(image.doc.data()); 
-        console.log(image.doc.data().imageURL);  
+ 
         const imgPath = image.doc.data().imageURL;
-        addToGallery(imgPath);
+        // addToGallery(imgPath);
+
+        imageCircles.push( new ImageCircle(imgPath));
+
       })
   })
 
