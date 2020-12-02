@@ -1,11 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCMZMyhB90JLdQuZdgJMfXWX8r690bCHcA",
-    authDomain: "new-new-image-gallery.firebaseapp.com",
-    databaseURL: "https://new-new-image-gallery.firebaseio.com",
-    projectId: "new-new-image-gallery",
-    storageBucket: "new-new-image-gallery.appspot.com",
-    messagingSenderId: "1032025845926",
-    appId: "1:1032025845926:web:3dcb0770523f6142724467"
+
   };
 
   firebase.initializeApp(firebaseConfig);
